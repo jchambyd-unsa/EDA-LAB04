@@ -20,7 +20,7 @@ public class TestExercise2 {
     String result = list.toString();
     String expected = "{a,b,c,d}";
 
-    assertEquals(expected, result, "La salida esperada es: " + expected + " pero retorno: " + expected);
+    assertEquals(expected, result, "La salida esperada es: " + expected + " pero retorno: " + result);
   }
 
   @Test
@@ -37,7 +37,7 @@ public class TestExercise2 {
     String result = list.toString();
     String expected = "{a,b,d,c}";
 
-    assertEquals(expected, result, "La salida esperada es: " + expected + " pero retorno: " + expected);
+    assertEquals(expected, result, "La salida esperada es: " + expected + " pero retorno: " + result);
   }
 
   @Test
@@ -54,7 +54,7 @@ public class TestExercise2 {
     String result = list.toString();
     String expected = "{a,b,d}";
 
-    assertEquals(expected, result, "La salida esperada es: " + expected + " pero retorno: " + expected);
+    assertEquals(expected, result, "La salida esperada es: " + expected + " pero retorno: " + result);
   }
 
   @Test
@@ -72,6 +72,6 @@ public class TestExercise2 {
 
     String expected = "{5,10,20,30}";
 
-    assertEquals(expected, result, "La salida esperada es: " + expected + " pero retorno: " + expected);
+    assertEquals(expected, result, "La salida esperada es: " + expected + " pero retorno: " + result);
   }
 }
